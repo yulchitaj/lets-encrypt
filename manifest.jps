@@ -1,13 +1,1 @@
-{
-  "jpsVersion": "0.6",
-  "jpsType": "update",
-  "id": "letsencrypt-ssl-addon",
-  "name": "Let's Encrypt Free SSL",
-  "version": "1.1",
-  "homepage": "https://github.com/yulchitaj/lets-encrypt",
-  "baseUrl":"https://github.com/yulchitaj/lets-encrypt/blob/master/",
-  "logo": "images/lets-encrypt.png",
-  "onInstall": {
-  "cmd[cp]":"curl -fSs '${baseUrl}/scripts/install-ssl.js'"},
-  "success":"README.md"
-}
+{"jpsType":"update","name":"Test Base URL","baseUrl":"https://github.com/%20yulchitaj/fastText-docker/blob/master","onInstall":{"cmd[cp]":"curl -fSs '${baseUrl}/examples/classification-example.sh'"},"success":"/deployments/README.md"}
