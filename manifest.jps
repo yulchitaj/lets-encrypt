@@ -7,7 +7,7 @@
   "homepage": "https://github.com/yulchitaj/lets-encrypt",
   "baseUrl":"https://github.com/yulchitaj/lets-encrypt/blob/master/",
   "logo": "images/lets-encrypt.png",
-    "onInstall": {
-    "cmd[cp]":"curl -fSs '${baseUrl}/scripts/install-ssl.js'"},
-    "success":"README.md"
+  "onInstall": {
+  "cmd[cp]":"curl -fSs '${baseUrl}/scripts/install-ssl.js'"},
+  "success":"README.md"
 }
