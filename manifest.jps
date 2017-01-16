@@ -5,7 +5,7 @@
   "name": "Let's Encrypt Free SSL",
   "version": "1.1",
   "homepage": "https://github.com/yulchitaj/lets-encrypt",
-  "baseUrl":"https://github.com/yulchitaj/fastText-docker/blob/master",
+  "baseUrl":"https://github.com/yulchitaj/lets-encrypt/blob/master/",
   "logo": "images/lets-encrypt.png",
   "onInstall": {
   "cmd[cp]":"curl -fSs '${baseUrl}/scripts/install-ssl.js'"},
